@@ -1,0 +1,373 @@
+{
+  "app": {
+    "name": "Nutri Plan Pro",
+    "tagline": "Clinical Nutrition Platform",
+    "subtitle": "Clinical Nutrition"
+  },
+  "common": {
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "signOut": "Sign out",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "back": "Back",
+    "viewAll": "View all",
+    "items": "{{count}} item",
+    "items_other": "{{count}} items",
+    "educational": "Educational only. Not a substitute for professional medical advice.",
+    "educational_long": "This app provides educational information only and is not a substitute for professional medical advice. Always consult a registered dietitian or physician before making significant dietary changes.",
+    "noArticles": "No articles found.",
+    "keyPoints": "Key Points",
+    "keyFacts": "Key Facts",
+    "allTopics": "All Topics",
+    "kcalPerDay": "kcal/day"
+  },
+  "language": {
+    "en": "EN",
+    "ar": "عربي"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "myProfile": "My Profile",
+    "dietPlans": "Diet Plans",
+    "dailyTracker": "Daily Tracker",
+    "calorieCalculator": "Calorie Calculator",
+    "drugInteractions": "Drug Interactions",
+    "nutritionInfo": "Nutrition Info",
+    "foodSafety": "Food Safety",
+    "plugins": "Plugins"
+  },
+  "notifications": {
+    "completeProfile": {
+      "title": "Complete your profile",
+      "message": "Add your conditions, allergies, and medications to get personalized plans."
+    },
+    "interactionWarning": {
+      "title": "{{count}} drug interaction warning",
+      "title_other": "{{count}} drug interaction warnings",
+      "message": "Potential food-drug interactions detected with your current medications. Review them now."
+    },
+    "logMeals": {
+      "title": "Log your meals today",
+      "message": "You haven't logged any food today. Track your nutrition in the Daily Tracker."
+    },
+    "stayHydrated": {
+      "title": "Stay hydrated",
+      "message": "Remember to drink water throughout the day. Aim for at least 2,500 ml daily."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "email": "Email address",
+      "password": "Password",
+      "submit": "Sign In",
+      "submitting": "Signing in…",
+      "noAccount": "Don't have an account?",
+      "createFree": "Create one free",
+      "emailPlaceholder": "you@example.com",
+      "passwordPlaceholder": "••••••••",
+      "failed": "Login failed."
+    },
+    "register": {
+      "title": "Create your account",
+      "fullName": "Full name",
+      "email": "Email address",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "submit": "Create Account",
+      "submitting": "Creating account…",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "namePlaceholder": "Jane Smith",
+      "passwordPlaceholder": "Min. 8 characters",
+      "confirmPlaceholder": "Repeat your password",
+      "passwordMismatch": "Passwords do not match.",
+      "passwordTooShort": "Password must be at least 8 characters.",
+      "failed": "Registration failed."
+    }
+  },
+  "dashboard": {
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's your health overview for today.",
+    "completeProfile": {
+      "title": "Complete your health profile",
+      "desc": "Add your conditions, allergies, and medications to get personalized diet plans.",
+      "cta": "Set Up Profile"
+    },
+    "interactions": {
+      "title_one": "{{count}} Major Drug Interaction Detected",
+      "title_other": "{{count}} Major Drug Interactions Detected",
+      "desc": "Critical food-drug interactions found for your medications.",
+      "cta": "Review Now"
+    },
+    "stats": {
+      "dietPlans": "Diet Plans",
+      "conditions": "Conditions",
+      "allergies": "Allergies",
+      "medications": "Medications"
+    },
+    "calories": {
+      "title": "Today's Calories",
+      "of": "of",
+      "ofGoal": "% of daily goal",
+      "logFood": "Log food"
+    },
+    "macros": {
+      "title": "Today's Macros",
+      "empty": "No food logged yet",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat"
+    },
+    "water": {
+      "title": "Water Intake",
+      "logWater": "Log water",
+      "reached": "Daily water goal reached!",
+      "remaining": "{{amount}} ml remaining",
+      "of": "/ 2500 ml"
+    },
+    "trend": {
+      "title": "7-Day Calorie Trend",
+      "empty": "Start tracking to see your trend",
+      "calories": "Calories"
+    },
+    "recentPlans": {
+      "title": "Recent Diet Plans",
+      "empty": "No diet plans yet.",
+      "createFirst": "Create Your First Plan"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "logMeal": "Log Meal",
+      "newPlan": "New Diet Plan",
+      "checkInteractions": "Check Interactions",
+      "calorieCalc": "Calorie Calc"
+    }
+  },
+  "tracker": {
+    "title": "Daily Tracker",
+    "logFood": "Log Food",
+    "items": "{{count}} item",
+    "items_other": "{{count}} items",
+    "stats": {
+      "calories": "Calories",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat"
+    },
+    "water": {
+      "title": "Water Intake",
+      "custom": "Custom",
+      "prompt": "Enter amount in ml:"
+    },
+    "macros": {
+      "title": "Today's Macros",
+      "empty": "Log food to see your macro breakdown"
+    },
+    "trend": {
+      "title": "7-Day Calorie Trend",
+      "calories": "Calories"
+    },
+    "foodLog": {
+      "title": "Today's Food Log",
+      "empty": "No food logged yet today.",
+      "logFirst": "Log Your First Meal"
+    },
+    "dialog": {
+      "title": "Log Food",
+      "mealType": "Meal Type",
+      "foodName": "Food / Dish Name",
+      "foodNamePlaceholder": "e.g., Grilled chicken breast",
+      "calories": "Calories (kcal)",
+      "protein": "Protein (g)",
+      "carbs": "Carbs (g)",
+      "fat": "Fat (g)",
+      "submit": "Log Food",
+      "submitting": "Saving…"
+    },
+    "meals": {
+      "breakfast": "Breakfast",
+      "morning_snack": "Morning Snack",
+      "lunch": "Lunch",
+      "afternoon_snack": "Afternoon Snack",
+      "dinner": "Dinner",
+      "other": "Other"
+    }
+  },
+  "profile": {
+    "title": "Health Profile",
+    "subtitle": "Your personal data is used to generate tailored diet plans and detect food-drug interactions.",
+    "saved": "Profile saved successfully.",
+    "personalInfo": "Personal Information",
+    "name": "Full Name",
+    "namePlaceholder": "Your name",
+    "age": "Age (years)",
+    "gender": "Gender",
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "weight": "Weight (kg)",
+    "height": "Height (cm)",
+    "activityLevel": "Activity Level",
+    "activityOptions": {
+      "sedentary": "Sedentary (little or no exercise)",
+      "lightly_active": "Lightly Active (1-3 days/week)",
+      "moderately_active": "Moderately Active (3-5 days/week)",
+      "very_active": "Very Active (6-7 days/week)",
+      "extra_active": "Extra Active (physical job or 2x/day)"
+    },
+    "conditions": "Medical Conditions",
+    "conditionsHint": "Select all conditions that apply.",
+    "allergies": "Allergies and Intolerances",
+    "allergiesHint": "Restricted foods will be excluded from your diet plans.",
+    "medications": "Current Medications",
+    "medicationsHint": "We will check for food-drug interactions with your medications.",
+    "saveButton": "Save Profile",
+    "saving": "Saving…"
+  },
+  "dietPlans": {
+    "title": "Diet Plans",
+    "subtitle": "Personalized meal plans based on your health profile",
+    "newPlan": "New Plan",
+    "kcalDay": "kcal/day",
+    "empty": {
+      "desc": "No diet plans yet. Create your first personalized plan."
+    },
+    "delete": {
+      "confirm": "Delete this diet plan?"
+    },
+    "dialog": {
+      "title": "Generate Diet Plan",
+      "planTitle": "Plan Title",
+      "planTitlePlaceholder": "e.g., Diabetes Management Plan",
+      "calorieTarget": "Daily Calorie Target",
+      "caloriesPerDay": "calories per day",
+      "conditions": "Medical Conditions",
+      "allergies": "Allergies to Exclude",
+      "submit": "Generate Plan",
+      "submitting": "Generating…"
+    }
+  },
+  "interactions": {
+    "title": "Food-Drug Interactions",
+    "subtitle": "Check which foods to avoid with your medications.",
+    "disclaimer": "This information is educational only. Always consult your physician or pharmacist before making dietary changes based on medication use.",
+    "totalInteractions": "Total Interactions",
+    "moderate": "Moderate",
+    "major": "Major",
+    "filterByMed": "Filter by Medication",
+    "allMedications": "All Medications",
+    "empty": "No interactions found",
+    "emptyForMed": "No interactions found for this medication.",
+    "avoid": "Avoid:",
+    "recommendation": "Recommendation:",
+    "severity": {
+      "minor": "Minor",
+      "moderate": "Moderate",
+      "major": "Major"
+    }
+  },
+  "foodSafety": {
+    "title": "Food Safety",
+    "subtitle": "Evidence-based guidelines for safe food handling, storage, and hygiene.",
+    "categories": {
+      "haccp": "HACCP Principles",
+      "cross_contamination": "Cross-Contamination",
+      "storage": "Food Storage",
+      "hygiene": "Personal Hygiene",
+      "diseases": "Foodborne Diseases"
+    }
+  },
+  "nutrition": {
+    "title": "Nutrition Information",
+    "subtitle": "Evidence-based nutrition science to support your health goals.",
+    "categories": {
+      "macronutrients": "Macronutrients",
+      "micronutrients": "Micronutrients",
+      "daily_requirements": "Daily Requirements",
+      "healthy_eating": "Healthy Eating"
+    }
+  },
+  "calorieCalculator": {
+    "title": "Calorie Calculator",
+    "subtitle": "Calculate your daily energy needs using the Mifflin-St Jeor equation.",
+    "age": "Age (years)",
+    "gender": "Gender",
+    "weight": "Weight (kg)",
+    "height": "Height (cm)",
+    "activityLevel": "Activity Level",
+    "goal": "Goal",
+    "calculate": "Calculate",
+    "calculating": "Calculating…",
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "activityOptions": {
+      "sedentary": "Sedentary (little or no exercise)",
+      "lightly_active": "Lightly Active (1-3 days/week)",
+      "moderately_active": "Moderately Active (3-5 days/week)",
+      "very_active": "Very Active (6-7 days/week)",
+      "extra_active": "Extra Active (physical job or 2x/day)"
+    },
+    "goalOptions": {
+      "lose_weight": "Lose Weight (-500 kcal/day)",
+      "maintain": "Maintain Weight",
+      "gain_weight": "Gain Weight (+300 kcal/day)"
+    },
+    "results": {
+      "title": "Your Results",
+      "bmr": "Basal Metabolic Rate",
+      "tdee": "Total Daily Energy",
+      "target": "Daily Calorie Target",
+      "bmi": "BMI",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat",
+      "macrosTitle": "Recommended Macros",
+      "disclaimer": "These are estimates. Individual needs vary. Consult a dietitian for personalized guidance."
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "The page you're looking for doesn't exist.",
+    "goHome": "Go to Dashboard"
+  },
+  "plugins": {
+    "foodSearch": {
+      "title": "Food Search",
+      "desc": "Search 3 million+ foods from Open Food Facts. Select a result to auto-fill nutrition values.",
+      "searchPlaceholder": "Search foods… e.g. chicken breast, oats, banana",
+      "searchHint": "Type at least 2 characters to search…",
+      "selected": "Selected",
+      "servingSize": "Serving size (grams)",
+      "nutritionFor": "Nutrition for {{grams}}g",
+      "backToResults": "Back to results",
+      "addToLog": "Add to Food Log",
+      "success": "Added to food log!",
+      "successDesc": "{{name}} was logged successfully.",
+      "searchAgain": "Search another food",
+      "viewTracker": "View Daily Tracker",
+      "errorTitle": "Search unavailable",
+      "errorHint": "You can still log food manually in the",
+      "noResults": "No results for \"{{query}}\"",
+      "noResultsHint": "Try a different spelling, or log manually in the Daily Tracker.",
+      "results": "results",
+      "per100g": "per 100g",
+      "selectHint": "kcal/100g",
+      "idleTitle": "Start typing to search millions of foods from the Open Food Facts database.",
+      "idleHint": "Examples: oats, chicken breast, Greek yogurt",
+      "attribution": "Nutrition data from Open Food Facts (open database, CC-BY-SA). Always verify values on product labels."
+    }
+  }
+}
